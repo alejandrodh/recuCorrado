@@ -1,0 +1,105 @@
+ul{
+    padding: 0;
+    margin:0;
+}
+nav {
+    background-color: #eee;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.nav {
+    margin: 0 !important;
+}
+.nav a{
+    color: #444;
+    text-decoration: none;
+}
+.nav a:hover{
+    font-weight: bold;
+}
+.search-form {
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.search-form .btn-sm{
+    line-height: 1;
+    font-size: 0.9rem;
+    width: 18%;
+}
+.search-form input{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-top: 3px;
+    vertical-align: middle;
+    line-height: 1;
+    font-size: 1rem;
+    padding-bottom: 4px;
+    width: 80%;
+}
+.cards {
+    margin-bottom: 2%;
+}
+.cardBody {
+    margin-top: 20px;
+}
+.single-card-people {
+    width: 15%;
+}
+.single-card-movie {
+    width: 20%;
+}
+.single-card-playing {
+    width: 15%;
+}
+#now-playing .card-text{
+    height: 100px;
+    overflow: hidden;
+}
+.single-card-tv{
+    width: 19%;
+}
+.tv-show .card-text{
+    height: 100px;
+    overflow: hidden;
+}
+.single-card-on-air{
+    width: 15%;
+}
+#on-air-today .card-text{
+    height: 100px;
+    overflow: hidden;
+}
+
+footer{
+    padding: 30px 0;
+    background: #444;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+footer p {
+    color: #ccc;
+    margin: 0
+}
+footer .nav-tabs,
+footer .nav-tabs .nav-link:hover {
+    border: none;
+}
+
+.navigation li {
+    list-style-type: none;
+}
+.navigation a {
+    color: #ccc
+}
+.navigation a:hover {
+    font-weight: bold;
+}
