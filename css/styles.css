@@ -51,6 +51,8 @@ nav {
 }
 .single-card-movie {
     width: 20%;
+
+    
 }
 .single-card-playing {
     width: 15%;
@@ -98,8 +100,37 @@ footer .nav-tabs .nav-link:hover {
     list-style-type: none;
 }
 .navigation a {
-    color: #ccc
+    color: #ccc;
+
+    
 }
 .navigation a:hover {
     font-weight: bold;
+}
+
+.cards_movies {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navigation {
+    display: flex;
+
+
+}
+
+
+@media (max-width:767.98px){
+
+
+    .cards_movies {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+
+
+
 }
